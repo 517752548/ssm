@@ -21,5 +21,9 @@ public class BookServiceImplTest extends BaseTest {
 		AppointExecution execution = bookService.appoint(bookId, studentId);
 		System.out.println(execution);
 	}
-
+	@Test
+public void TextPrint()
+{
+	System.out.print("shuchu");
+}
 }
